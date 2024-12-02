@@ -1,0 +1,9 @@
+0.7
+2020.2
+Sep  5 2024
+15:23:16
+C:/Users/stepa/VivadoProjects/lab2/lab2.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/stepa/VivadoProjects/lab2/lab2.srcs/sim_1/new/Sorting20Full.sv,1733155205,systemVerilog,,C:/Users/stepa/VivadoProjects/lab2/lab2.srcs/sim_1/new/Sorting20Line.sv,,Sorting20Full,,uvm,,,,,,
+C:/Users/stepa/VivadoProjects/lab2/lab2.srcs/sim_1/new/Sorting20Line.sv,1733154901,systemVerilog,,C:/Users/stepa/VivadoProjects/lab2/lab2.srcs/sim_1/new/SortingBlock.sv,,Sorting20Line,,uvm,,,,,,
+C:/Users/stepa/VivadoProjects/lab2/lab2.srcs/sim_1/new/SortingBlock.sv,1733150883,systemVerilog,,C:/Users/stepa/VivadoProjects/lab2/lab2.srcs/sources_1/new/Test.sv,,SortingBlock,,uvm,,,,,,
+C:/Users/stepa/VivadoProjects/lab2/lab2.srcs/sources_1/new/Test.sv,1733155380,systemVerilog,,,,Test,,uvm,,,,,,
