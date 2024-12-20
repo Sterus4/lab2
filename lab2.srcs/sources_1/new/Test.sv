@@ -38,6 +38,7 @@ module Test();
     wire ready_data;
     wire [7:0] data_out;
     wire [4:0] free_space;
+    wire is_locked;
 
     SortingBuffer buffer(
         .clk(clk),
@@ -56,7 +57,8 @@ module Test();
 
         .ready_data(ready_data),
         .data_out(data_out),
-        .free_space(free_space)
+        .free_space(free_space),
+        .is_locked(is_locked)
     );
 
     initial begin
@@ -77,6 +79,24 @@ module Test();
         value1 = 3;
         valid_write2 = 1;
         value2 = 12;
+        addr = 0;
+        #10;
+        valid_write1 = 0;
+        valid_write3 = 1;
+        value3 = 7;
+        value2 = 10;
+        valid_read = 1;
+        #10;
+        valid_write2 = 0;
+        valid_write4 = 1;
+        value4 = 1;
+        value3 = 11;
+        #10;
+        valid_write4 = 0;
+        valid_write3 = 0;
+        #10;
+        #10;
+
         #10
         valid_write1 = 0;
         valid_write3 = 1;

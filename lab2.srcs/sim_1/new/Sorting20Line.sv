@@ -22,7 +22,7 @@
 
 module Sorting20Line(
     input wire [7:0] inputs [0:19], 
-    input wire [7:0] outputs [0:19]);
+    output wire [7:0] outputs [0:19]);
 wire [7:0] common[0:19];
 
 generate
